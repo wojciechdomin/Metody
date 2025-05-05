@@ -1,0 +1,2 @@
+interp "let x = ref 1 in let u = while !x < 1000 do x := !x * 2 in !x";;
+- : value = VInt 1024

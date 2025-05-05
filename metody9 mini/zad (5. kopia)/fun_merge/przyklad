@@ -1,0 +1,2 @@
+interp "let x = ref 5 in let u = try (x:=3 ,x:= (2,throw)) with !x in !x";;
+- : value = VInt 5

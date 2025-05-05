@@ -1,0 +1,5 @@
+interp "let x = ref 5 in let u = try (x:=3 ,x:= (2,throw)) with 4 in !x";;
+- : value = VInt 3
+
+interp "let x = ref 5 in let u = try (x:=3 ,x:= (2,5)) with 4 in !x";;
+- : value = VPair (VInt 2, VInt 5)
