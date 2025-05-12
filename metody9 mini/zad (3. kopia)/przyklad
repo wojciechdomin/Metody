@@ -1,2 +1,0 @@
-interp "try  1/0 with 2+2";;
-- : value = VInt 4
