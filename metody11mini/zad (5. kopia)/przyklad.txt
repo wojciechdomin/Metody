@@ -1,0 +1,3 @@
+(funrec f (x : int) (y : bool) : int -> if (x/10)*10 = x then f (x - 1)  false else if y then f (x+3) true else x ) 23 true 
+
+49

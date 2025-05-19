@@ -1,0 +1,3 @@
+./uruchom.sh "method (self : int).toInt = self in method (self : bool).toInt = if self then 1 else 0 in method (self : int).toPair = (self,self) in  method (self : int*int).toInt = (fst self) + (snd self) in  2.toInt + (fst true.toInt.toInt.toInt.toPair).toPair.toInt.toPair.toInt.toPair.toInt "
+
+10
