@@ -1,0 +1,1 @@
+chmod 777 uruchom.sh; echo $1 > temp.fun;dune exec while temp.fun; rm -f temp.fun
